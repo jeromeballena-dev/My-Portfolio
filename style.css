@@ -495,6 +495,7 @@ form input:hover, form textarea:hover{
 
     }
 
+
     .header__image{
         display: block;
     }
@@ -511,8 +512,10 @@ form input:hover, form textarea:hover{
     }
 
     .header-brand{
-        padding: 2rem;
+        padding: 2rem 0 0 4.5rem;
         font-size: 65px;
+        text-align: center;
+
     }
     
     .header-text{
