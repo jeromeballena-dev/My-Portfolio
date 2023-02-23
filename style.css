@@ -693,7 +693,6 @@ form input:hover, form textarea:hover{
         font-size: 20px;
     }
 
-
 /* -------------------------FOOTER SECTION--------------------- */
     .footer{
         height: 10vh;
@@ -705,7 +704,25 @@ form input:hover, form textarea:hover{
         font-weight: 400;
 
     }
+    .footer{
+        height: 10vh;
+        padding: 1.5rem;
 
+    }
+    .footer h2{
+        font-size: 20px;
+        font-weight: 400;
+
+    }    .footer{
+        height: 10vh;
+        padding: 1.5rem;
+
+    }
+    .footer h2{
+        font-size: 20px;
+        font-weight: 400;
+
+    }
 
 }
     
