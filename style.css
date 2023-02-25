@@ -235,7 +235,7 @@ nav ul li a:hover{
     margin-right:-200px;
 }
 
-.contact_text--2 h2{
+.contact_text--2{
     display: none;
 }
 
@@ -628,7 +628,104 @@ form input:hover, form textarea:hover{
     }
 
 /* -------------------------CONTACT SECTION--------------------- */
-    .contact{
+.contact{
+    padding-top: 1rem;
+    font-size: 30px;
+    font-weight: 200;
+    height: 135vh;
+}
+
+.contact_text--2.cotact_text--2--a{
+    display: block;
+    padding-top: 0.25rem;
+    text-align: center;
+}
+
+.contact_text--2.cotact_text--2--a h2{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.contact__row{
+   padding-top: 1rem;
+   flex-direction: column;
+}
+
+.contact-left h2{
+    display: none;
+}
+
+.contact-left{
+    margin-top: 0;
+    margin-left: 3rem;
+    flex-basis:100%;
+    order: 2;
+    text-align: left;
+}
+
+.contact-left p{
+    margin: 3% 8%;
+    
+
+}                                                                    
+.contact-left p i{
+    color: #d9d9d9;
+    margin-right: 25px;
+    font-size: 35px;
+}
+
+.contact-left__icons{
+    margin-left: 10%;
+}
+
+.contact-left__icons a{
+    font-size: 45px;
+    padding: 0 1%;
+    margin-top: 1px;
+}
+
+.contact__btn{
+    font-size: 20px;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+
+}
+
+.contact__btn.contact__btn--1{
+    margin: 10px 25% 20px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.contact-right{
+    flex-basis: 100%;
+    order: 1;
+}  
+
+.contact-right form{
+    margin:0 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+form input, form textarea{
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+    width: 95%;
+    padding-bottom: 1%;
+}
+
+
+.contact__btn.contact__btn--2{
+    margin: 5px;
+    width: 100px;
+    font-size: 20px;
+}
+
+    /* .contact{
         padding-top: 2rem;
         font-size: 20px;
         font-weight: 200;
@@ -638,18 +735,17 @@ form input:hover, form textarea:hover{
         display: block;
         font-size: 60px;
         font-weight: 800;
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
         text-align: center;
     }
 
     .contact__row{
-       padding-top: 3rem;
+       padding-top: 2rem;
     }
 
     .contact-left h2{
         display: none;
     }
-     /* sssss */
 
     .contact-left{
         margin-top: 25px;
@@ -660,21 +756,18 @@ form input:hover, form textarea:hover{
 
     .contact-left p{
         margin-top: 15px;
-    }
 
+    }                                                                    
     .contact-left p i{
         color: #d9d9d9;
         margin-right: 5px;
         font-size: 20px;
     }
 
-
-
     .contact-left__icons a{
         font-size: 27px;
         margin-top: 35px;
     }
-
 
     .contact__btn{
         font-size: 20px;
@@ -683,7 +776,6 @@ form input:hover, form textarea:hover{
     
     }
 
-
     .contact__btn.contact__btn--1{
         margin-top: 30px;
         margin-left: 10px;
@@ -691,13 +783,12 @@ form input:hover, form textarea:hover{
         font-weight: 400;
     }
 
-
     .contact-right{
         flex-basis: 56.5%;
     }  
 
     .contact-right form{
-        margin: 10px 0 0 10px;
+        margin: 5px 0 0 10px;
         width: 100%;
         text-align: center;
 
@@ -714,7 +805,7 @@ form input:hover, form textarea:hover{
     .contact__btn.contact__btn--2{
         width: 100px;
         font-size: 20px;
-    }
+    } */
 
 /* -------------------------FOOTER SECTION--------------------- */
     .footer{
