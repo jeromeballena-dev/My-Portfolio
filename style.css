@@ -136,6 +136,8 @@ nav ul li a:hover{
     width: 5%;
     margin-right: 55px;
     cursor: pointer;
+    
+
 }
 
 .about-skills__h3--2:hover{
@@ -507,7 +509,7 @@ form input:hover, form textarea:hover{
         height: 250px;
         border-radius: 50%;
         object-fit: cover;
-        top: 50%;
+        top: 49%;
         left: 50%;
         transform: translate(-50%, -50%);
         position: absolute;
@@ -544,10 +546,15 @@ form input:hover, form textarea:hover{
         text-align: center;
     }
 
+    .header-text--2 h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+
     .header-text--2 h2{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 200;
-        line-height: 1.8;
+        line-height: 1.5;
     }
 
     .header-text--2 span{
