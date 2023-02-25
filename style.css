@@ -229,10 +229,11 @@ nav ul li a:hover{
 
 .contact-left h2{
     font-size: 105px;
+    font-weight: 800;
     margin-right:-200px;
 }
 
-.contact-text--2{
+.contact_text--2 h2{
     display: none;
 }
 
@@ -315,7 +316,7 @@ form input, form textarea{
     margin-bottom: 10px;
     border-radius: 10px;
     color: #fff;
-    font-size: 32px;
+    font-size: 25px;
     border: 6px;
 }
 
@@ -512,6 +513,15 @@ form input:hover, form textarea:hover{
         position: absolute;
     }
 
+    .header__image img:hover{
+        border-radius: 50%;
+        border: 3.5px solid #A7235F;
+        cursor: pointer;
+        box-shadow: 0px 0px 18px 7px rgba(0,0,0,0.45);
+        -webkit-box-shadow: 0px 0px 18px 7px rgba(0,0,0,0.45);
+        -moz-box-shadow: 0px 0px 18px 7px rgba(0,0,0,0.45);
+    }
+
     .header-brand{
         padding: 0.55rem 0 0 1.5rem;
         font-size: 65px;
@@ -600,6 +610,9 @@ form input:hover, form textarea:hover{
 
     .portfolio__img:hover{
         border: 3px solid #A7235F;
+        box-shadow: 0px 0px 6px 7px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px 0px 6px 7px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px 0px 6px 7px rgba(0,0,0,0.55);
     }
     
 
@@ -614,13 +627,12 @@ form input:hover, form textarea:hover{
         font-weight: 200;
     }
 
-    .contact-text--2{
+    .contact_text--2 h2{
         display: block;
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 60px;
+        font-weight: 800;
         padding-top: 2.5rem;
         text-align: center;
-
     }
 
     .contact__row{
