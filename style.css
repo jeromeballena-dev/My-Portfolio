@@ -73,6 +73,7 @@ nav ul li a:hover{
 
 .header-text__span{
     color: #A7235F;
+    font-weight: 700;
 }
 /* Media Query Elements Hero */
 .header__image{
